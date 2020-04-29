@@ -30,4 +30,4 @@ let x4 = {
     name:'sameer'
 }
 console.log(deepEqual(x1,x2))
-console.log(deepEqual(x3,x4))
+console.log(deepEqual(x3,x4)) // here the case sensitive testcase is given
