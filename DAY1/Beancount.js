@@ -7,7 +7,6 @@ function countBs(string1){
     }
     return count
 }
-
 word=countBs("Be A Bear with a Bomb")
 console.log(word)
 
@@ -20,6 +19,5 @@ function countchars(string1,character){
     }
     return count
 }
-
 word2 = countchars("Aliceappleblast",'a')
 console.log(word2)

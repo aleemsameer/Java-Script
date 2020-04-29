@@ -13,26 +13,21 @@ function deepEqual(var1, var2) {
 }
 return countA == countB;
 }
-
 let x1 ={
     Name : "Sameer",
     Roll : 59,
     College : "IIITH"
     }
-
 let x2 ={
     Name : "Sameer",
     Roll : 59,
     College : "IIITH"
     }
-
 let x3 = {
     name:'Sameer'
 }
-
 let x4 = {
     name:'sameer'
 }
-
 console.log(deepEqual(x1,x2))
 console.log(deepEqual(x3,x4))
